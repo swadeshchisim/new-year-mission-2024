@@ -3,20 +3,34 @@
     margin: 0;
     padding: 0;
 }
-
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
 /* header styles */
 header {
     color: #fff;
     text-align: center;
-    border-radius: 16px;
-    background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(../images/banner.png);
     font-family: "Merriweather", serif;
-    padding: 177px 344px;
 }
 
 /* banner styles */
+.banner-content{
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    padding: 177px 344px;
+    margin-top: 50px;
+}
 .banner-greeting{
     font-size: 32px;
     line-height: 40px;
     margin-bottom: 16px;
+}
+.banner-title{
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
 }
