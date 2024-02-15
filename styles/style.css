@@ -3,19 +3,35 @@
     margin: 0;
     padding: 0;
 }
-.container{
+
+.container {
     max-width: 1320px;
     margin: 0 auto;
 }
+
+.text-center {
+    text-align: center;
+}
+
+.red-text {
+    color: #ff0000;
+}
+
+.section-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
 /* header styles */
 header {
     color: #fff;
-    text-align: center;
     font-family: "Merriweather", serif;
 }
 
 /* banner styles */
-.banner-content{
+.banner-content {
     border-radius: 16px;
     background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(../images/banner.png);
     background-repeat: no-repeat;
@@ -24,13 +40,38 @@ header {
     padding: 177px 344px;
     margin-top: 50px;
 }
-.banner-greeting{
+
+.banner-greeting {
     font-size: 32px;
     line-height: 40px;
     margin-bottom: 16px;
 }
-.banner-title{
+
+.banner-title {
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
+}
+
+/* categories style */
+.categories-area {
+    font-family: "Inter", sans-serif;
+    padding: 120px 0;
+}
+
+.big-offer {
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    margin-bottom: 48px;
+}
+
+.holiday-deal-text {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-bottom: 16px;
+}
+.happy-new-year-img{
+    margin-top: 48px;
 }
