@@ -16,7 +16,12 @@
 .red-text {
     color: #ff0000;
 }
-
+.bg-red{
+    background: #ff0000;
+}
+.bg-transparent{
+    background: transparent;
+}
 .section-title {
     color: #070211;
     font-size: 48px;
@@ -92,6 +97,7 @@ header {
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(../images/party.png);
     padding: 68px 0;
+    margin-bottom: 120px;
 }
 
 .midnight-party-title {
@@ -102,6 +108,7 @@ header {
     letter-spacing: 11%;
     margin-bottom: 24px;
 }
+
 .midnight-party-description {
     color: rgba(255, 255, 255, 0.8);
     font-size: 18px;
@@ -116,7 +123,23 @@ header {
     font-weight: 700;
     line-height: 24px;
     text-transform: uppercase;
-    background: transparent;
-    padding: 48px 32px 0;
+    padding: 18px 32px;
     cursor: pointer;
+}
+
+/* upcomming event styles */
+.upcomming-event-area {
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    padding: 100px 0 120px;
+}
+.upcomming-event-text {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.border-radius{
+    border-radius: 8px;
+    margin-top: 48px;
 }
