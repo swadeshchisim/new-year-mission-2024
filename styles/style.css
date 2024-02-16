@@ -162,6 +162,12 @@ header {
 }
 
 /* New Offer Image Styles */
+.new-best-offer-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 0;
+}
 .new-offer-img {
     width: 463px;
     height: 463px;
@@ -173,4 +179,7 @@ header {
 }
 .new-offer-img > img{
     padding: 49px;
+}
+.new-offer-padding{
+    padding: 16px 0 43px;
 }
