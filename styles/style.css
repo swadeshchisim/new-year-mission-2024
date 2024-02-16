@@ -280,5 +280,21 @@ input[type="email"] {
 }
 
 .social-icon {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
     padding: 48px 0;
+}
+
+/* copyright */
+.copyrights-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyrights-area>p {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
 }
