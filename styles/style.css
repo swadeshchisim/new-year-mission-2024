@@ -239,3 +239,8 @@ input[type="email"] {
     border-radius: 0px 50px 50px 0px;
     margin-left: -212px;
 }
+
+/* Footer Styles */
+.footer-area{
+    background: rgb(7, 2, 17);
+}
