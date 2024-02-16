@@ -16,24 +16,29 @@
 .red-text {
     color: #ff0000;
 }
-.bg-red{
+
+.bg-red {
     background: #ff0000;
 }
-.bg-transparent{
+
+.bg-transparent {
     background: transparent;
 }
+
 .section-title {
     color: #070211;
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
 }
+
 .section-additional-text {
     font-size: 24px;
     font-weight: 500;
     line-height: 29px;
     margin-bottom: 16px;
 }
+
 .merriweather-font {
     font-family: "Merriweather", serif;
 }
@@ -131,13 +136,27 @@ header {
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
     padding: 100px 0 120px;
 }
+
 .upcomming-event-text {
     font-size: 32px;
     font-weight: 600;
     line-height: 56px;
     text-transform: capitalize;
 }
-.border-radius{
+
+.border-radius {
     border-radius: 8px;
     margin-top: 48px;
+}
+
+/* New Offer Section Styles */
+.offer-title {
+    margin-bottom: 24px;
+}
+
+.new-offer-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
 }
