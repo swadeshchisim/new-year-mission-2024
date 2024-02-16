@@ -241,6 +241,44 @@ input[type="email"] {
 }
 
 /* Footer Styles */
-.footer-area{
+.footer-area {
+    color: #fff;
     background: rgb(7, 2, 17);
+    padding: 120px 0;
+}
+
+.address-area {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 48px;
+}
+
+.address-text {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.contact-info>div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.contact-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.contact-number {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.social-icon {
+    padding: 48px 0;
 }
