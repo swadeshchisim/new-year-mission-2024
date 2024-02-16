@@ -20,23 +20,28 @@
 .dark-text {
     color: rgb(7, 2, 17);
 }
+
 .bg-red {
     background: #ff0000;
 }
+
 .bg-transparent {
     background: transparent;
 }
+
 .section-title {
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
 }
+
 .section-description {
     color: rgba(7, 2, 17, 0.6);
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
 }
+
 .section-additional-text {
     font-size: 24px;
     font-weight: 500;
@@ -124,7 +129,7 @@ header {
     line-height: 30px;
 }
 
-.join-now-btn {
+.primary-btn {
     border: none;
     color: rgb(255, 255, 255);
     font-size: 20px;
@@ -186,21 +191,51 @@ header {
 }
 
 /* Portfolio Section Styles */
-.our-portfolio-area{
+.our-portfolio-area {
     padding: 120px 0;
 }
-.portfolio-padding{
+
+.portfolio-padding {
     padding: 16px 0 22px;
 }
 
 /* Portfolio Product Styles */
-.products{
+.products {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     padding-top: 26px;
 }
-.products > img:hover{
+
+.products>img:hover {
     border-radius: 20px;
     box-shadow: 2px 3px 10px rgb(7, 2, 17);
+}
+
+/* newsletter styels */
+.newsletter-area {
+    padding: 80px 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.newsletter-description {
+    padding: 40px 0 22px;
+}
+
+input[type="email"] {
+    border: none;
+    padding: 25px 30px;
+    width: 648px;
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 50px;
+}
+
+.subscribe-btn {
+    font-weight: 600;
+    padding: 25px 56px;
+    text-transform: capitalize;
+    border-radius: 0px 50px 50px 0px;
+    margin-left: -212px;
 }
